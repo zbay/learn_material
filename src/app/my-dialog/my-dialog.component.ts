@@ -6,7 +6,6 @@ import {MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
   templateUrl: './my-dialog.component.html',
   styleUrls: ['./my-dialog.component.css']
 })
-// resume: 31:35 from https://www.youtube.com/watch?v=xJJ_NDqvuCk
 export class MyDialogComponent implements OnInit {
 
   constructor(public thisDialogRef: MatDialogRef<MyDialogComponent>,
